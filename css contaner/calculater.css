@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.heading_contaner{
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.all_calculater_contaner{
+    border: 1px solid rgba(176, 176, 199, 0.932);
+    border-radius: 30px;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 10px 0px;
+    background-color: rgba(0, 0, 0, 0.651);
+    backdrop-filter: blur(10px);
+
+}
+.Answer_geter {
+  width: 250px;
+  height: 70px;
+  color: white;
+  background-color: rgba(194, 194, 194, 0.395);
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 25px;
+  padding: 0 10px;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+@media (max-width: 768px) {
+  .Answer_geter_contaner {
+    margin: 0px;
+  }
+}
+.Answer_geter_contaner {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.All_button_contaner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.add_operater,.subtract_operater,
+.Multiply_operater,.divide_operater,
+.clear_screen {
+  background: rgba(248, 248, 42, 0.865);
+  color: white;
+  border: none;
+  font-weight: bolder;
+}
+.number,.calculater2,.decimal{
+    border: none;
+    background: rgba(0, 0, 0, 0.367);
+    color: white;
+    font-weight: bolder;
+}
+.anly_four_button {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.anly_four_button button {
+  font-size: 25px;
+  height: 50px;
+  width: 60px;
+  border-radius: 40%;
+}

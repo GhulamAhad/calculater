@@ -48,7 +48,11 @@ const calculateResult = function () {
   } else if (operaterChosero == "*") {
     evaluateResult = prev * current;
   } else if (operaterChosero == "/") {
-    evaluateResult = prev / current;
+    if(current>1){
+      evaluateResult = prev / current;
+    }else{
+      return;
+    }
   } else {
     return;
   }
